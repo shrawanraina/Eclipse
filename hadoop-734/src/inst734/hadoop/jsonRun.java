@@ -13,26 +13,24 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
 public class jsonRun extends Configured implements Tool{
-
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		int res = ToolRunner.run(new Configuration(), new jsonRun(), args);
         System.exit(res);  
 	}
-
+	
 	public int run(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-		if (args.length != 2) {
+		if (args.length < 2) {
             System.out.println("usage: [input] [output]");
             System.exit(-1);
         }
 		Job job = Job.getInstance(new Configuration());
-        job.setOutputKeyClass(Text.class);
+		job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(Text.class);
 
         job.setMapperClass(jsonReadMapper.class);
         job.setReducerClass(jsonReducer.class);
-
         job.setInputFormatClass(TextInputFormat.class);
         job.setOutputFormatClass(TextOutputFormat.class);
 

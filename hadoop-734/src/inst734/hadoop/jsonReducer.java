@@ -4,16 +4,13 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-import inst734.hadoop.jsonReadMapper;
 
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
 public class jsonReducer extends Reducer<Text, Text, Text, Text> {
 	private static HashMap<String, Map<String,Integer>> parentMap = new HashMap<String, Map<String,Integer>>( );
-	private static Integer totalDoc;
-	private static Integer totalTweets = jsonReadMapper.getTweets();
-	
+	private static Integer totalDoc = 0;
 	public void reduce(Text key, Iterable<Text> values, Context output) throws IOException, InterruptedException {
 		try{
 			for(Text v : values){
@@ -53,7 +50,7 @@ public class jsonReducer extends Reducer<Text, Text, Text, Text> {
 					finalDoc = finalDoc + doc + "(" + docCount + ")";
 					iteratorDoc.remove();
 				}
-				output.write(new Text(word + "\t" + totalTweets.toString() + "\t" + "(" + totalDoc.toString() + ")"), new Text(finalDoc));
+				output.write(new Text(word + "\t" + "(" + totalDoc.toString() + ")"), new Text(finalDoc));
 				iteratorWrd.remove();
 			}
 		}
