@@ -1,0 +1,43 @@
+/*
+ * bst.cpp
+ *
+ *  Created on: Jan 21, 2014
+ *      Author: shrawanraina
+ */
+#include <iostream>
+#include <stdlib.h>
+
+struct node{
+	int data;
+	node* left;
+	node* right;
+};
+
+node* root = new node();
+
+void insertBST(node* temp, int number){
+	if(temp == NULL){
+		temp->data = number;
+		temp->left = NULL;
+		temp->right = NULL;
+	}
+}
+
+void inOrderPrintBST(node* temp){
+	if(temp != NULL){
+		inOrderPrintBST(temp->left);
+		std::cout<<temp->data<<std::endl;
+		inOrderPrintBST(temp->right);
+	}
+}
+
+int main(){
+	root = NULL;
+	insertBST(root,10);
+	//inOrderPrintBST(root);
+	std::cout<<"hello";
+	return 0;
+}
+
+
+

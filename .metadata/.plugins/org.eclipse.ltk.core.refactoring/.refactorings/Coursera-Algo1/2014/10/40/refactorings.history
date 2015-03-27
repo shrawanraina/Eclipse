@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;learn.java.stackArrayImplemetation&apos; to &apos;stackArrayImplementation&apos;&#x0A;- Original project: &apos;Coursera-Algo1&apos;&#x0A;- Original element: &apos;learn.java.stackArrayImplemetation&apos;&#x0A;- Renamed element: &apos;learn.java.stackArrayImplementation&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;stackArrayImplemetation&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;learn.java{stackArrayImplemetation.java[stackArrayImplemetation" matchStrategy="1" name="stackArrayImplementation" qualified="false" references="true" similarDeclarations="false" stamp="1412290739641" textual="false" version="1.0"/>
+</session>

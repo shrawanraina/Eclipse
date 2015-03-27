@@ -1,0 +1,45 @@
+/*
+ * bst.cpp
+ *
+ *  Created on: Jan 21, 2014
+ *      Author: shrawanraina
+ */
+#include <iostream>
+#include <stdlib.h>
+
+struct bstnode{
+	int data;
+	bstnode* left;
+	bstnode* right;
+};
+
+
+bstnode* newBST(int data){
+		bstnode* temp = new bstnode();
+		temp->data = data;
+		temp->left = NULL;
+		temp->right = NULL;
+		return temp;
+}
+
+void insertBST(bstnode** root,int data){
+	if (root == NULL){
+		root = newBST(data);
+	}
+	else if (data < root->data){
+		insertBST(root->left,data);
+	}
+	else (data > root->data){
+		insertBST(root->right,data);
+	}
+}
+
+int main(){
+	bstnode* root = new bstnode();
+	root = NULL;
+	insertBST(&root,10);
+	return 0;
+}
+
+
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;union_find.java&apos; to &apos;Java-Interview/src/learn.java.misc&apos;&#x0A;- Original project: &apos;Union-Find&apos;&#x0A;- Destination element: &apos;Java-Interview/src/learn.java.misc&apos;&#x0A;- Original element: &apos;union_find.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Java-Interview/src&lt;learn.java.misc" element1="/src&lt;{union_find.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1427425585464" units="1" version="1.0"/>
+</session>

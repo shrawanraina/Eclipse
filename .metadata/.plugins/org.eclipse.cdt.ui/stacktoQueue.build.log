@@ -1,0 +1,19 @@
+23:34:42 **** Incremental Build of configuration Debug for project stacktoQueue ****
+make all 
+Building file: ../src/stacktoQueue.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/stacktoQueue.d" -MT"src/stacktoQueue.d" -o "src/stacktoQueue.o" "../src/stacktoQueue.cpp"
+../src/stacktoQueue.cpp:18:19: error: 'data' is a private member of 'Stacks'
+        std::cout<<stack.data;
+                         ^
+../src/stacktoQueue.cpp:11:6: note: implicitly declared private here
+        int data;
+            ^
+../src/stacktoQueue.cpp:12:10: warning: private field 'next' is not used [-Wunused-private-field]
+        Stacks* next;
+                ^
+1 warning and 1 error generated.
+make: *** [src/stacktoQueue.o] Error 1
+
+23:34:42 Build Finished (took 367ms)
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="265" key="DIALOG_WIDTH"/>
+		<item value="87" key="DIALOG_Y_ORIGIN"/>
+		<item value="873" key="DIALOG_X_ORIGIN"/>
+		<item value="399" key="DIALOG_HEIGHT"/>
+		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="Result" key="selection"/>
+		<list key="findhistory">
+			<item value="result"/>
+			<item value="reverse"/>
+			<item value="&quot;7&quot;"/>
+			<item value="&quot;6&quot;"/>
+			<item value="&quot;8&quot;"/>
+			<item value="&quot;2&quot;"/>
+			<item value="&quot;1&quot;"/>
+			<item value="&quot;0&quot;"/>
+		</list>
+		<list key="replacehistory">
+			<item value="&quot;seven&quot;"/>
+			<item value="&quot;six&quot;"/>
+			<item value="&quot;eight&quot;"/>
+			<item value="&quot;two&quot;"/>
+			<item value="&quot;one&quot;"/>
+			<item value="&quot;zero&quot;"/>
+			<item value="nullptr"/>
+			<item value="stack"/>
+		</list>
+	</section>
+</section>

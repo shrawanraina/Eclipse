@@ -1,0 +1,6 @@
+23:09:20 **** Incremental Build of configuration Debug for project C-Interview ****
+make all 
+make: Nothing to be done for `all'.
+
+23:09:20 Build Finished (took 106ms)
+

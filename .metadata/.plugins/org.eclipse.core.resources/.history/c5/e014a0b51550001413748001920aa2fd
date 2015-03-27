@@ -1,0 +1,32 @@
+import java.sql.Array;
+
+
+public class _reverseString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = new String();
+		str = "Microsoft Interview";
+		//System.out.println(str[0]);
+		String newStr = _reverse(str);
+		System.out.println(newStr);
+	}
+
+	private static String _reverse(String str) {
+		// TODO Auto-generated method stub
+		if(str == null || str.length() <=1)
+			return null;
+		char[] strArr  = str.toCharArray();
+		System.out.println(str.length());
+		char temp;
+		int length = strArr.length - 1;
+		for(int i = 0; i< strArr.length; ++i){
+			temp = strArr[i];
+			strArr[i] = strArr[length];
+			strArr[length--] = temp;
+		}
+		return new String(strArr);
+	}
+	
+
+}

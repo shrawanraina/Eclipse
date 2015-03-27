@@ -1,0 +1,22 @@
+import java.sql.Array;
+
+
+public class _reverseString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String string = new String();
+		string = "Microsoft Interview";
+		char[] str  = string.toCharArray();
+		//System.out.println(str[0]);
+		String newStr = _reverse(str);
+	}
+
+	private static String _reverse(char[] str) {
+		// TODO Auto-generated method stub
+		System.out.println(str.length);
+		return null;
+	}
+	
+
+}

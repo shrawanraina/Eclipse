@@ -1,0 +1,22 @@
+package learn.java;
+
+public class reverseStringWord {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Hello how are you";
+		_reverseStringWord(str);
+	}
+	
+	public static void _reverseStringWord(String str){
+		char[] input = str.toCharArray();
+		int len = input.length-1;
+		while(input[len] != ' '){
+			--len;
+			if(input[len] == ' '){
+				System.out.println(input.toString().substring(len));
+			}
+		}
+	}
+	
+}

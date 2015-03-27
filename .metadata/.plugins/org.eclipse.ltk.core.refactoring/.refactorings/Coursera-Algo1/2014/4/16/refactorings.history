@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;learn.java.treeToArray.java&apos; to &apos;binaryTree.java&apos;&#x0A;- Original project: &apos;Coursera-Algo1&apos;&#x0A;- Original element: &apos;learn.java.treeToArray.java&apos;&#x0A;- Renamed element: &apos;learn.java.binaryTree.java&apos;" description="Rename compilation unit &apos;treeToArray.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;learn.java{treeToArray.java" name="binaryTree.java" references="false" stamp="1397841407690" version="1.0"/>
+</session>

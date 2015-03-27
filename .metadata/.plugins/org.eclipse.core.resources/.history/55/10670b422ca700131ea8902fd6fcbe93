@@ -1,0 +1,18 @@
+
+public class Main extends hashMap{
+/*	public Main(){
+		super();
+	}
+	public Main(int x){
+		super(x);
+	}*/
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		hashMap obj = new hashMap();
+		obj.createDictionary();
+		obj.addHashMap();
+		//Main obj = new Main(10);
+		//int x = obj.XOR();
+		//System.out.println(x);
+	}
+}

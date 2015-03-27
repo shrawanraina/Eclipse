@@ -1,0 +1,19 @@
+23:12:15 **** Build of configuration Debug for project Strings ****
+make all 
+Building file: ../_strings.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"_strings.d" -MT"_strings.d" -o "_strings.o" "../_strings.cpp"
+../_strings.cpp:101:7: warning: unused variable 'arr' [-Wunused-variable]
+        char arr[] = "hello how are you";
+             ^
+1 warning generated.
+Finished building: ../_strings.cpp
+ 
+Building target: Strings
+Invoking: MacOS X C++ Linker
+g++  -o "Strings"  ./_strings.o   
+Finished building target: Strings
+ 
+
+23:12:17 Build Finished (took 2s.415ms)
+

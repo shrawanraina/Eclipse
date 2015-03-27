@@ -1,0 +1,4 @@
+1427425903994	Rename resource 'strings.cpp'
+1427426067578	Move '_strings.cpp' to '_strings'
+1427426118151	Move 'coinChange.cpp' to '_arrays'
+1427426143641	Rename resource 'coinChange.cpp'

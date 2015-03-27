@@ -1,0 +1,22 @@
+package learn.java;
+
+public class balancedParanthesis {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String string = new String();
+		string = "1+2+3+4";
+		stringAnswer(string);
+	}
+	
+	public static void stringAnswer(String string){
+		char[] input = string.toCharArray();
+		int i = 0;
+		while(input[i] != '\0'){
+			System.out.println(input[i]);
+			i++;
+		}
+		//return 0;
+	}
+
+}

@@ -1,0 +1,16 @@
+22:45:17 **** Incremental Build of configuration Debug for project Algorithm ****
+make all 
+Building file: ../src/Algorithm.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm.d" -MT"src/Algorithm.d" -o "src/Algorithm.o" "../src/Algorithm.cpp"
+../src/Algorithm.cpp:59:9: error: no viable conversion from 'Stacks *' to 'Stacks'
+        Stacks stack1 = new Stacks();
+               ^        ~~~~~~~~~~~~
+../src/Algorithm.cpp:15:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'Stacks *' to 'const Stacks &' for 1st argument; dereference the argument with *
+class Stacks{
+      ^
+1 error generated.
+make: *** [src/Algorithm.o] Error 1
+
+22:45:18 Build Finished (took 361ms)
+

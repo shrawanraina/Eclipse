@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 packages to &apos;Java-Interview/src&apos;&#x0A;- Original project: &apos;webservice&apos;&#x0A;- Destination element: &apos;Java-Interview/src&apos;&#x0A;- Original elements:&#x0A;     webservice/src/net.webservicex&#x0A;     webservice/src/learn.webservice&#x0A;- Update references to refactored element" description="Move packages" destination="=Java-Interview/src" element1="/src&lt;net.webservicex" element2="/src&lt;learn.webservice" flags="589830" fragments="2" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1427425213631" version="1.0"/>
+</session>
