@@ -23,13 +23,6 @@
 		<item value="0" key="DIALOG_Y_ORIGIN"/>
 		<item value="98" key="DIALOG_X_ORIGIN"/>
 	</section>
-	<section name="InstallationDialogSettings">
-		<item value="702" key="DIALOG_WIDTH"/>
-		<item value="-44" key="DIALOG_Y_ORIGIN"/>
-		<item value="652" key="DIALOG_HEIGHT"/>
-		<item value="-86" key="DIALOG_X_ORIGIN"/>
-		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
-	</section>
 	<section name="NewWizardAction">
 		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
@@ -37,11 +30,18 @@
 			<item value="org.eclipse.jdt.ui.java"/>
 		</list>
 	</section>
+	<section name="InstallationDialogSettings">
+		<item value="702" key="DIALOG_WIDTH"/>
+		<item value="-44" key="DIALOG_Y_ORIGIN"/>
+		<item value="-86" key="DIALOG_X_ORIGIN"/>
+		<item value="652" key="DIALOG_HEIGHT"/>
+		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+	</section>
 	<section name="ShowViewDialog">
 		<item value="308" key="DIALOG_WIDTH"/>
 		<item value="123" key="DIALOG_Y_ORIGIN"/>
-		<item value="415" key="DIALOG_HEIGHT"/>
 		<item value="566" key="DIALOG_X_ORIGIN"/>
+		<item value="415" key="DIALOG_HEIGHT"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="EditorSelectionDialog">

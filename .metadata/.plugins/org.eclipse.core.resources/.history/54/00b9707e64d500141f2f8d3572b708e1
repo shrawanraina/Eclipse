@@ -1,0 +1,18 @@
+/*
+ * hash.h
+ *
+ *  Created on: Mar 6, 2014
+ *      Author: shrawanraina
+ */
+#include <stdio.h>
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+#ifndef HASH_H_
+#define HASH_H_
+
+
+
+#endif /* HASH_H_ */

@@ -33,6 +33,7 @@ class node {
 	
 	node(){
 		name = "";
+		next = null;
 	}
 	
 	public String getName(){
@@ -52,6 +53,7 @@ class node {
 	}
 	
 }
+
 public class _linkedList {
 	public static node headNode;
 	
@@ -66,8 +68,18 @@ public class _linkedList {
 	public static void _insertNode(String name){
 		node obj = new node();
 		obj.setName(name);
-		obj.setNext(null);
+		obj.setNext(headNode);
 		headNode = obj;
+	}
+	
+	public static void _deleteNode(String name){
+		node curr = headNode;
+		node prev = null;
+		while(curr.getName() != name){
+			prev = curr;
+			curr = curr.getNext();
+		}
+		prev.setNext(curr.getNext());
 	}
 	
 	public static void _displayNode(node obj){
@@ -92,12 +104,12 @@ public class _linkedList {
 			return;
 		}
 		_reverseNodeRec(obj.getNext());
-		node temp = headNode.getNext();
-		temp.setNext(headNode);
-		headNode.setNext(null);
+		node temp = obj.getNext();
+		temp.setNext(obj);
+		obj.setNext(null);
 	}
 	
-	public static node reverse(node obj){
+	public static node _reverse(node obj){
 		node cur, prev, next;
 		prev = null;
 		cur = headNode;

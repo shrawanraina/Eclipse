@@ -8,10 +8,25 @@
 #include <iostream>
 #include <stdio.h>
 #include <string>
-#include "hash.h"
 #include <unordered_map>
 using namespace std;
 std::unordered_map<char,int> mymap;
+
+class hashTable{
+	static const int tableSize = 10;
+	struct node{
+		string name;
+		int marks;
+		node* next;
+	};
+	node* hashTB[tableSize];
+public:
+	hashTable();
+	int hashkey(string s);
+	void addNode(string name, int marks);
+	void printTable();
+	int noOfItems(int index);
+};
 
 hashTable::hashTable(){
 	for(int i=0;i<tableSize;i++){
