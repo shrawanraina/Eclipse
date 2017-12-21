@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;DataStructures/CPP.c++&apos; to &apos;CPP.cpp&apos;" description="Rename resource &apos;CPP.c++&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="CPP.c++" name="CPP.cpp" stamp="1390286598902" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;DataStructures/CPP.cpp&apos; to &apos;ds.cpp&apos;" description="Rename resource &apos;CPP.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="CPP.cpp" name="ds.cpp" stamp="1390351997724" updateReferences="true"/>
-</session>
